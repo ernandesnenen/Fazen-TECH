@@ -1,0 +1,153 @@
+body{
+    background-color:#fafafa;
+    color:#4a4251;
+    font-size: 1em;
+}
+
+.texto{
+    display: none;
+}
+
+.pesquisa{
+    border-radius: 20px;
+    background-color: #ff0000;
+    
+}
+.form-control{
+    
+    border-radius: 20px;
+}
+.meucontainer{
+    padding: 50px 15px;
+    
+}
+thead tr th{
+    font-size: 2.8vw;
+    color: #ff0000;
+}
+
+
+#inputPassword, #staticEmail{
+    border: 1px solid #f1eeee;
+    border-radius: 50px;
+   
+    
+}
+.bg-imagem{
+    width: 100%;
+   
+}
+
+#btn-tg-modal{
+    color: #ff0000;
+    text-align: right;
+    border: none;
+    background-color: #fafafa;
+}
+.nav-item a.nav-link:hover{
+    color: #ff0000 !important;
+}
+
+.modal-dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    
+}
+.modal-content{
+    background-color: #fafafa;
+  
+}
+.modal-body input{
+    border: 1px solid #f1eeee;
+    border-radius: 50px;
+    width: 90%;
+
+}
+.modal-header{
+border: none;
+}
+.modal-footer .btn-primary{
+    background-color: #ff0000;
+    border: none;
+}
+.modal-footer .btn-secondary{
+      border: none;
+}
+.modal-title{
+    color: #ff0000;
+}
+.modal-data{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    margin-top: 30px;
+}
+.form-group{
+    margin-top: 30px;
+}
+.navbar{
+    background-color: #fafafa;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+@media screen and (min-width: 575px){
+
+    thead tr th{
+        font-size: 1em;
+        
+    }
+    .texto{
+        display: block;
+    }
+    p{
+        margin-top: 50px;
+
+    }
+   
+   .sec-c{
+       display: grid;
+       grid-template-columns: 1fr 1fr ;
+       grid-template-rows: 1fr 1fr;
+      
+     
+
+    }
+    .sec-1{       
+      
+       grid-column-start: 2;
+       grid-column-end: 3;
+       grid-row-start: 1;
+       grid-column-end: 2;
+      
+    }
+  
+   .sec-2{
+  
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    align-self: center;
+
+   }
+  
+   .sec-3{
+      
+       grid-column-start: 1;
+       grid-column-end: -1;
+
+   }
+
+  
+
+
+
+}

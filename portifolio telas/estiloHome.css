@@ -1,0 +1,150 @@
+body{
+    background-color:#fafafa;
+    color:#4a4251;
+    font-size: 1em;
+}
+.meucontainer{
+    padding: 50px 15px;
+    
+}
+
+
+#inputPassword, #staticEmail{
+    border: 1px solid #f1eeee;
+    border-radius: 50px;
+   
+    
+}
+.bg-imagem{
+    width: 100%;
+   
+}
+.bt-div{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-top: 30px;
+}
+
+#btn-tg-modal{
+    color: #ff0000;
+    text-align: right;
+    border: none;
+    background-color: #fafafa;
+}
+
+.modal-dialog{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+  
+  
+}
+
+.modal-dialog-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    
+}
+
+.modal-content{
+    background-color: #fafafa;
+  
+}
+.modal-body input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f1eeee;
+    border-radius: 50px;
+    width: 100%;
+   
+}
+.modal-header{
+border: none;
+color: #ff0000;
+}
+.modal-footer .btn-primary{
+    background-color: #ff0000;
+    border: none;
+}
+.modal-footer .btn-secondary{
+      border: none;
+}
+
+.navbar{
+    background-color: #fafafa;
+}
+
+/* ------------------------ modal funcionário--------------------------- */
+.modal-body-cont{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    width: 100%;
+}
+.modal-body-date{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+
+#data{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.modal-body-sexo{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.modal-body-sexo-radios{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.modal-body-endereco{
+    display: flex;
+    flex-direction: column;
+    
+}
+/* ------------------------ modal funcionário--------------------------- */
+
+.nav-item a.nav-link:hover{
+    color: #ff0000 !important;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+@media screen and (min-width: 800px){
+   
+   .sec-c{
+       display: flex;
+       flex-direction: row-reverse;
+       margin: 0;
+      
+
+    }
+    .sec-1{ 
+       display: flex;
+       flex-direction: row;
+      
+    }
+    
+    .sec-2{
+        display: flex;
+        flex-direction: column;  
+          
+        justify-content: center;
+   }
+  
+}

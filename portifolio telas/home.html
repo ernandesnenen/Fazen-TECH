@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estiloHome.css">
+</head>
+<body>
+
+    <!-- ----------------inicio do navbar---------------------------- -->
+
+    <nav class="navbar navbar-expand-lg navbar-light  justify-content-end">
+        
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="./Manejo.html">Manejo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Enfermidades.html">Enfermidades</a>
+            </li>
+           </ul>
+        </div>
+      </nav>
+
+    <!-- ----------------fim do navbar------------------------------- -->
+    <div class="meucontainer">
+        <h1>FazenTECH <br> Lactante </h1>
+        <section class="sec-c">
+
+            <section class="sec-1">
+                <img src="./img/fazendaportifolio2.svg" alt="fazenda" class="bg-imagem">
+                
+            </section>
+            <section class="sec-2">
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, illum optio rerum similique placeat consequuntur odio culpa veniam autem eos ducimus maiores ipsam accusamus distinctio aperiam quis vitae delectus tenetur?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, illum optio rerum similique placeat consequuntur odio culpa veniam autem eos ducimus maiores ipsam accusamus distinctio aperiam quis vitae delectus tenetur?</p>
+             
+                <!-- ------------------------------------ -->
+                <div class="bt-div justify-content-between">
+
+                    <p id="btn-tg-modal" class="meuLink " data-toggle="modal" data-target="#exampleModal-1">
+                        Cadastrar funcionário
+                    </p>
+                    
+                    <p id="btn-tg-modal" class="meuLink " data-toggle="modal" data-target="#exampleModal-2">
+                        Cadastrar Animal
+                    </p>
+                </div>
+                    <!-- Button trigger modal -->
+            </section> 
+        </section>
+            
+            <!-- Modal 1-->
+            <div class="modal fade" id="exampleModal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Funcionário</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <!-- ------------modal 1 bloco dados pessoais ----------------- -->
+                    <div class="modal-body">
+                        <label for="nome">Nome:</label>
+                        <input id="nome" type="text" >
+                   
+                        <label for="cpf">CPF:</label>
+                        <input id="cpf" type="text" >
+                   
+                        <label for="cargo">Cargo:</label>
+                        <input id="cargo" type="text" >
+                   
+                        <label for="email">Email:</label>
+                        <input id="email" type="text" >
+                    
+
+                    
+                    <div class="modal-body-cont">
+
+                            <div class="modal-body-date">
+                                
+                                <label for="data">DataNacimento:</label>
+                                <input id="data" type="date" >
+                            </div>
+                            
+                    <div class="modal-body-sexo">
+                        
+                        <p>Sexo:</p>
+
+                        <div class="modal-body-sexo-radios">
+                            <input type="radio" name="sexo" id="masculino">
+                            <label for="masculino">M</label>
+                            <input type="radio" name="sexo" id="feminino">
+                            <label for="feminino">F</label>
+
+                        </div>
+                        
+                        </div>
+                  </div>
+             </div>
+
+            <!-- ------- modal 1 blooco endereço--------------------- -->
+
+                    <div class="modal-body">   
+                           
+                                <label for="estado">Estado:</label>
+                                <input id="estado" type="text" >
+                           
+                                <label for="cidade">Cidade:</label>
+                                <input id="cidade" type="text" >                            
+                          
+                                <label for="rua">Rua:</label>
+                                <input id="rua" type="text" >
+                           
+                                <label for="numero">número:</label>
+                                <input id="numero" type="text" >
+                    
+                    </div>
+                    <!-- ---------------------------- -->                    
+
+
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <!-- ------------------------------------- -->
+
+         <!-- Modal 2 -->
+         <div class="modal fade" id="exampleModal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-a" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Animal</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <label for="codigo">Código:</label>
+                    <input id="codigo" type="text" >
+                    <label for="nome">Nome:</label>
+                    <input id="nome" type="text" >
+                    <label for="raca">Raça:</label>
+                    <input id="raca" type="text" >
+                    <!-- ---------------------- -->
+                    <div class="modal-body-cont">
+
+                        <div class="modal-body-date">
+                            
+                            <label for="data">DataNacimento:</label>
+                            <input id="data" type="date" >
+                        </div>
+                        
+                    <div class="modal-body-sexo">
+                    
+                    <p>Sexo:</p>
+
+                    <div class="modal-body-sexo-radios">
+                        <input type="radio" name="sexo" id="masculino">
+                        <label for="masculino">M</label>
+                        <input type="radio" name="sexo" id="feminino">
+                        <label for="feminino">F</label>
+
+                    </div>
+                    <!-- ---------------------- -->
+
+                </div>
+               
+                </div>
+
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    <!-- ------------------------------------- -->
+       
+                        
+    </div>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
