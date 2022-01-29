@@ -1,3 +1,3 @@
 # Fazen-TECH
 
-<img src="Fazen TECH.gif"/>
+<img src="FazenTECh.gif"/>
